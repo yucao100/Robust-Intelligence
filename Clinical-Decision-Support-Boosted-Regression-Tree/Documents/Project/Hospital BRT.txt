@@ -1,0 +1,377 @@
+> Hospital<-gbm.step(data=patTrain, gbm.x=c(2:14), gbm.y=1, family="bernoulli", tree.complexity=5, learning.rate=0.005, bag.fraction=0.5, step.size=5)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 13 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5664 
+ 
+now adding trees... 
+55   0.5655 
+60   0.5653 
+65   0.5651 
+70   0.5656 
+75   0.5655 
+80   0.5655 
+85   0.5656 
+90   0.5658 
+95   0.5665 
+100   0.567 
+105   0.5667 
+110   0.5668 
+115   0.5666 
+120   0.5661 
+125   0.5666 
+130   0.5661 
+135   0.5659 
+140   0.5664 
+145   0.5661 
+fitting final gbm model with a fixed number of  65  trees for  D30_ACS 
+
+mean total deviance = 0.574 
+mean residual deviance = 0.531 
+ 
+estimated cv deviance = 0.565 ; se = 0.023 
+ 
+training data correlation = 0.401 
+cv correlation =  0.09 ; se = 0.052 
+ 
+training data ROC score = 0.85 
+cv ROC score = 0.615 ; se = 0.051 
+ 
+elapsed time -  0.05 minutes 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 12 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5661 
+ 
+now adding trees... 
+100   0.566 
+restart model with a smaller learning rate or smaller step size...
+> Hospital <- gbm.step(data=patTrain, gbm.x=c(2,3,4,5,6,7,8,9,10,11,12,13), gbm.y=1, family="bernoulli", tree.complexity=5, learning.rate=0.05, bag.fraction=0.5, step.size=25)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 12 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5896 
+ 
+now adding trees... 
+restart model with a smaller learning rate or smaller step size...
+> Hospital <- gbm.step(data=patTrain, gbm.x=c(2,3,4,5,6,7,8,9,10,11,12,13), gbm.y=1, family="bernoulli", tree.complexity=5, learning.rate=0.05, bag.fraction=0.5, step.size=1)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 12 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.598 
+ 
+now adding trees... 
+restart model with a smaller learning rate or smaller step size...
+> Hospital <- gbm.step(data=patTrain, gbm.x=c(2,3,4,5,6,7,8,9,10,11,12,13), gbm.y=1, family="bernoulli", tree.complexity=5, learning.rate=0.005, bag.fraction=0.5, step.size=25)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 12 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5653 
+ 
+now adding trees... 
+75   0.5625 
+restart model with a smaller learning rate or smaller step size...
+> Hospital <- gbm.step(data=patTrain, gbm.x=c(2,3,4,5,6,7,8,9,10,11,12,13), gbm.y=1, family="bernoulli", tree.complexity=5, learning.rate=0.005, bag.fraction=0.5, step.size=5)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 12 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5635 
+ 
+now adding trees... 
+55   0.5634 
+60   0.5628 
+65   0.5627 
+70   0.5623 
+75   0.5625 
+80   0.5614 
+85   0.561 
+90   0.5608 
+95   0.5604 
+100   0.5605 
+105   0.5602 
+110   0.5605 
+115   0.5613 
+120   0.5612 
+125   0.5613 
+130   0.5605 
+135   0.561 
+140   0.5607 
+145   0.5606 
+150   0.5612 
+155   0.5611 
+fitting final gbm model with a fixed number of  105  trees for  D30_ACS 
+
+mean total deviance = 0.574 
+mean residual deviance = 0.51 
+ 
+estimated cv deviance = 0.56 ; se = 0.024 
+ 
+training data correlation = 0.429 
+cv correlation =  0.106 ; se = 0.049 
+ 
+training data ROC score = 0.869 
+cv ROC score = 0.635 ; se = 0.041 
+ 
+elapsed time -  0.06 minutes 
+
+
+With 4 predictors removed
+
+simp.Hospital <- gbm.step(data=patTrain, gbm.x=Hospital.simp$pred.list[[4]],gbm.y=1,family="bernoulli",tree.complexity=5,learning.rate=0.005,bag.fraction=0.5,step.size=5)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 8 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5652 
+ 
+now adding trees... 
+55   0.5645 
+60   0.5639 
+65   0.5633 
+70   0.5625 
+75   0.5623 
+80   0.5619 
+85   0.5613 
+90   0.5606 
+95   0.56 
+100   0.5592 
+105   0.5591 
+110   0.5589 
+115   0.5584 
+120   0.5586 
+125   0.5589 
+130   0.5593 
+135   0.5591 
+140   0.5594 
+145   0.5592 
+150   0.5589 
+155   0.5586 
+160   0.5591 
+165   0.5599 
+170   0.5598 
+175   0.5603 
+fitting final gbm model with a fixed number of  115  trees for  D30_ACS 
+
+mean total deviance = 0.574 
+mean residual deviance = 0.51 
+ 
+estimated cv deviance = 0.558 ; se = 0.022 
+ 
+training data correlation = 0.391 
+cv correlation =  0.108 ; se = 0.058 
+ 
+training data ROC score = 0.837 
+cv ROC score = 0.649 ; se = 0.057 
+ 
+elapsed time -  0.07 minutes
+
+
+> Hospital <- gbm.step(data= patTrain, gbm.x=c(2,3,4,5,6,7), gbm.y=1, family="bernoulli", tree.complexity = 4, learning.rate=0.005, bag.fraction=0.5, step.size=5)
+Length  Class   Mode 
+     0   NULL   NULL 
+
+ 
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe patTrain and using a family of bernoulli 
+
+Using 300 observations and 6 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.5737 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5648 
+ 
+now adding trees... 
+55   0.5638 
+60   0.5632 
+65   0.5628 
+70   0.5624 
+75   0.5618 
+80   0.5615 
+85   0.5615 
+90   0.5617 
+95   0.5613 
+100   0.5613 
+105   0.5615 
+110   0.5617 
+115   0.5617 
+120   0.5617 
+125   0.5613 
+130   0.562 
+135   0.5628 
+140   0.5624 
+145   0.5622 
+fitting final gbm model with a fixed number of  95  trees for  D30_ACS 
+
+mean total deviance = 0.574 
+mean residual deviance = 0.524 
+ 
+estimated cv deviance = 0.561 ; se = 0.029 
+ 
+training data correlation = 0.358 
+cv correlation =  0.12 ; se = 0.087 
+ 
+training data ROC score = 0.816 
+cv ROC score = 0.654 ; se = 0.073 
+ 
+elapsed time -  0.04 minutes 
+> Hospital.pred <- predict.gbm(Hospital, patTest, n.trees = 95, type="response")
+> summary(Hospital.pred)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.05815 0.06551 0.07370 0.08164 0.08897 0.19140 
+> View(patTest)
+> Hospital.pred
+  [1] 0.08518477 0.07707757 0.05993183 0.08305750 0.08259926 0.05993420 0.06551092 0.06160319 0.08328327 0.07923251
+ [11] 0.11412846 0.06387348 0.07332722 0.07077684 0.09418673 0.06244156 0.06551092 0.05862125 0.05862125 0.09581383
+ [21] 0.07732191 0.06516627 0.07449044 0.09418673 0.06636476 0.06601949 0.09466096 0.12417871 0.13507823 0.14968027
+ [31] 0.06956131 0.06898868 0.07077684 0.07648735 0.07923251 0.06601949 0.09625002 0.07305104 0.06920064 0.08849914
+ [41] 0.07973282 0.06087539 0.11140214 0.07309111 0.07305104 0.06160319 0.11895754 0.14360473 0.08641366 0.06387348
+ [51] 0.07662634 0.07147631 0.12675630 0.07662634 0.09551572 0.06005670 0.06516627 0.06087539 0.07793618 0.09323129
+ [61] 0.09170791 0.07172773 0.07662634 0.15630500 0.11412846 0.06533505 0.07740904 0.05862125 0.06446292 0.09418673
+ [71] 0.05862125 0.09459838 0.06550921 0.12675630 0.06446292 0.08901936 0.07602572 0.07740904 0.15383621 0.09418673
+ [81] 0.07576631 0.09418673 0.09581383 0.08450533 0.07369630 0.06087539 0.07019430 0.09055356 0.06871368 0.07576631
+ [91] 0.06999157 0.09256376 0.07511378 0.06387348 0.09625002 0.06516627 0.07576936 0.08901936 0.07886499 0.07732191
+[101] 0.07650901 0.06984699 0.09412266 0.06237060 0.06550921 0.07042770 0.06824709 0.06956131 0.06087539 0.07490914
+[111] 0.05814882 0.06551092 0.06990360 0.06990080 0.07077684 0.07490914 0.05862357 0.06984699 0.11248121 0.07075307
+[121] 0.05814882 0.06990080 0.06446292 0.06301718 0.05993420 0.08305750 0.11147010 0.06321872 0.11997684 0.06824709
+[131] 0.08897238 0.19138994 0.10907441 0.06087539 0.06551092 0.06244156 0.11147010 0.07914287 0.07973282 0.06999157
+[141] 0.07477000 0.08897238 0.08959807 0.06100077 0.06687319 0.13597792 0.14360473 0.07576631 0.05814882 0.08897238
+[151] 0.14968027 0.09323129 0.08467714 0.08235801 0.05814882 0.05814882 0.08271707 0.15383621 0.08901936 0.08022960
+[161] 0.06550921 0.07369630 0.09146367 0.07923204 0.05862125 0.05815113 0.06924000 0.06042020 0.06812775 0.06898868
+[171] 0.11147010 0.09146367 0.07305104 0.11147010 0.07228270 0.06601949 0.07886499 0.06100077 0.06984699 0.11423563
+[181] 0.07309111 0.07648735 0.06990360 0.06218709 0.08305750 0.06301718 0.07319980 0.05862125 0.19138994 0.06636476
+[191] 0.07042770 0.08275520 0.14047460 0.10620133 0.06890169 0.07319980 0.06042020 0.10046273 0.08305750 0.07558374
+[201] 0.06301718 0.06530406 0.07291612 0.05993183 0.07075307 0.08510067 0.11997684 0.06993380 0.06877712 0.06984699
+[211] 0.05862125 0.07278174 0.08897238 0.06993380 0.08510067 0.08305750 0.09323129 0.19138994 0.06636476 0.06984699
+[221] 0.05993183 0.08848902 0.05862125 0.06898868 0.11475961 0.14968027 0.06824709 0.07576631 0.05815113 0.12675630
+[231] 0.07291612 0.05814882 0.06530406 0.05814882 0.07650901 0.06990360 0.07648735 0.06551092 0.06916663 0.07732191
+[241] 0.16573440 0.05815113 0.06924000 0.11147010 0.06824709 0.07985546 0.06956131 0.07305104 0.07260238 0.05814882
+[251] 0.11423563 0.07441810 0.10046273 0.07172773 0.12535377 0.06984699 0.07075307 0.06087539 0.08901936 0.07369630
+[261] 0.07456708 0.08848902 0.07923204 0.06516627 0.08271707 0.07172773 0.08467714 0.06877712 0.07732191 0.11147010
+[271] 0.05862357 0.07886499 0.07934899 0.05996453 0.06601949 0.06601949 0.08510067 0.06898868 0.07576936 0.14968027
+[281] 0.06890169 0.07558374 0.15383621 0.12341744 0.07075307 0.09882508 0.06530406 0.06042020 0.05862125 0.12554754
+[291] 0.08022960 0.05814882 0.06387348 0.06087539 0.07732191 0.12554754 0.08518477 0.07443081 0.08061086 0.05862125

@@ -1,0 +1,52 @@
+ GBM STEP - version 2.9 
+ 
+Performing cross-validation optimisation of a boosted regression tree model 
+for D30_ACS with dataframe Training_Data and using a family of bernoulli 
+
+Using 500 observations and 5 predictors 
+
+creating 10 initial models of 50 trees 
+
+ folds are stratified by prevalence 
+ 
+total mean deviance =  0.6051 
+ 
+tolerance is fixed at  6e-04 
+ 
+ntrees resid. dev. 
+50    0.5909 
+ 
+now adding trees... 
+100   0.5835 
+150   0.5783 
+200   0.5753 
+250   0.5751 
+300   0.5748 
+350   0.5741 
+400   0.5745 
+450   0.5741 
+500   0.5751 
+550   0.5756 
+600   0.5758 
+650   0.5768 
+700   0.5771 
+750   0.5785 
+800   0.5795 
+850   0.5811 
+900   0.5825 
+950   0.5835 
+1000   0.5855 
+fitting final gbm model with a fixed number of  450  trees for  D30_ACS 
+
+mean total deviance = 0.605 
+mean residual deviance = 0.5 
+ 
+estimated cv deviance = 0.574 ; se = 0.017 
+ 
+training data correlation = 0.367 
+cv correlation =  0.163 ; se = 0.044 
+ 
+training data ROC score = 0.829 
+cv ROC score = 0.69 ; se = 0.023 
+ 
+elapsed time -  0.18 minutes 
